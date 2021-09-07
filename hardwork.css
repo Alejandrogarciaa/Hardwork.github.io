@@ -1,0 +1,101 @@
+html {
+    background-color: rgb(78, 2, 88);
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    text-decoration-thickness: blue;
+    text-emphasis-style: blue;
+    
+}
+
+.container{
+    
+    width: 50%;
+    padding: 8px;
+}
+
+.img_john_jairo{
+    float: left;
+    width: 500px;
+    height: auto;
+    padding: 0 10px 0 0;
+    align-items: center;
+    flex: 0 0 150px;
+}
+
+.img_john_jairo img{
+    max-width: 100%;
+}
+
+.text{
+    text-align: justify;
+    padding-left: 20px;
+    display: flex;
+    flex: 0 0 150px;
+    font-size: x-large;
+}
+
+.text p{
+    margin: 0px;
+}
+
+.text_john{
+    text-align: justify;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+.container{
+    
+    width: 50%;
+    padding: 8px;
+}
+
+.img_pedro{
+    float: left;
+    width: 500px;
+    height: auto;
+    padding: 0 10px 0 0;
+    align-items: center;
+    flex: 0 0 150px;
+}
+
+.img_pedro img{
+    max-width: 100%;
+}
+
+.text{
+    text-align: justify;
+    padding-left: 20px;
+    display: flex;
+    flex: 0 0 150px;
+
+}
+
+.text p{
+    margin: 0px;
+}
+
+.text_pedro{
+    text-align: justify;
+    padding-left: 20px;
+    text-align: center;
+    margin: 0px;
+    flex: 0 0 150px;
+}
+
+.text_pedro_0{
+    font-size: x-large;
+    margin-top: 0em;
+    padding-left: 20px;
+    text-align: justify;
+    padding-left: 20px;
+    display: flex;
+    flex: 0 0 150px;
+    font-size: x-large;
+}
+
+.text_pedro_0 p{
+    margin: 0px;
+    padding-left: 20px;
+}
