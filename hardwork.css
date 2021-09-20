@@ -1,101 +1,107 @@
 html {
     background-color: rgb(78, 2, 88);
-    font-size: xx-large;
+    font-size: 25px;
     color: rgb(255, 255, 255);
-    text-decoration-thickness: blue;
-    text-emphasis-style: blue;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body{
+    
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+nav{
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+    margin: 3;
+    padding: 20px 30px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 0.8em;
+    display: inline;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    line-height: 1.8em;
+}
+#main-container{
+    background-color: white;
+    margin: 0 auto;
+
+    min-width: 375px;
+    width: 1280px;
+}
+#main-section{
+    width: 1280px;
+}
+
+
+#main-section, aside{
+    display: inline-block;
+    vertical-align: top;
+}
+#main-section{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 900px;
+}
+aside{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 375px;
+}
+
+aside .related{
+    margin: 0 auto;
+}
+
+article{
+    font-size: 1.1em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px){
+   
+}
+@media screen and (max-width: 360px){
+
+}
+@media screen and (max-width: 767px){
     
 }
-
-.container{
-    
-    width: 50%;
-    padding: 8px;
+@media screen and (max-width: 600px){
+   
 }
 
-.img_john_jairo{
-    float: left;
-    width: 500px;
-    height: auto;
-    padding: 0 10px 0 0;
-    align-items: center;
-    flex: 0 0 150px;
-}
-
-.img_john_jairo img{
-    max-width: 100%;
-}
-
-.text{
-    text-align: justify;
-    padding-left: 20px;
-    display: flex;
-    flex: 0 0 150px;
-    font-size: x-large;
-}
-
-.text p{
-    margin: 0px;
-}
-
-.text_john{
-    text-align: justify;
-    padding-left: 20px;
-    text-align: center;
+@media screen and (max-width: 400px){
 }
 
 
-.container{
-    
-    width: 50%;
-    padding: 8px;
-}
-
-.img_pedro{
-    float: left;
-    width: 500px;
-    height: auto;
-    padding: 0 10px 0 0;
-    align-items: center;
-    flex: 0 0 150px;
-}
-
-.img_pedro img{
-    max-width: 100%;
-}
-
-.text{
-    text-align: justify;
-    padding-left: 20px;
-    display: flex;
-    flex: 0 0 150px;
-
-}
-
-.text p{
-    margin: 0px;
-}
-
-.text_pedro{
-    text-align: justify;
-    padding-left: 20px;
-    text-align: center;
-    margin: 0px;
-    flex: 0 0 150px;
-}
-
-.text_pedro_0{
-    font-size: x-large;
-    margin-top: 0em;
-    padding-left: 20px;
-    text-align: justify;
-    padding-left: 20px;
-    display: flex;
-    flex: 0 0 150px;
-    font-size: x-large;
-}
-
-.text_pedro_0 p{
-    margin: 0px;
-    padding-left: 20px;
-}
