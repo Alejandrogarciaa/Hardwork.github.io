@@ -6,11 +6,11 @@ html {
 }
 
 
-body{
-    
-    margin: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+body {
+    margin-left: 1px;
+    margin-right:7px;
+    margin-top: 0px;
+    margin-bottom: 40px;
   }
 
 
@@ -103,5 +103,4 @@ footer{
 
 @media screen and (max-width: 400px){
 }
-
 
